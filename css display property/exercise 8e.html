@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        font-family: Arial;
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 30px;
+      }
+
+      .pickup-location,
+      .destination {
+        display: block;
+        margin-bottom: 15px;
+        padding: 15px;
+        width: 330px;
+        background-color: rgb(220, 220, 220);
+        border: none;
+        color: rgb(200, 200, 200);
+        font-size: 16px;
+      }
+      .destination {
+        margin-bottom: 40px;
+      }
+      .request,
+      .shedule {
+        padding: 15px;
+        width: 150px;
+        margin-right: 20px;
+        border: none;
+        font-size: 16px;
+      }
+      .request {
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Request a ride now</p>
+
+    <input
+      type="text"
+      class="pickup-location"
+      placeholder="Enter pickup location"
+    />
+    <input type="text" class="destination" placeholder="Enter destination" />
+    <button class="request">Request now</button>
+    <button class="shedule">Shedule for later</button>
+  </body>
+</html>
